@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Cplms
 
 CommunityPal Loan Management System
@@ -38,3 +39,6 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
+=======
+# frappecloud
+>>>>>>> e84488083d0ec9d75520ee3e17d6efdec29e092f
