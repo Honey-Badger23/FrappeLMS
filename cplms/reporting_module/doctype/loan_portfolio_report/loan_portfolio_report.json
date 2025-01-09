@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:37:41.912311",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "total_active_loans",
+  "total_outsand",
+  "delinq_rate",
+  "avg_in_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "total_active_loans",
+   "fieldtype": "Int",
+   "label": "Total Active Loans"
+  },
+  {
+   "fieldname": "total_outsand",
+   "fieldtype": "Currency",
+   "label": "Total Outstanding Principal"
+  },
+  {
+   "fieldname": "delinq_rate",
+   "fieldtype": "Float",
+   "label": "Delinquency Rate (%)"
+  },
+  {
+   "fieldname": "avg_in_rate",
+   "fieldtype": "Float",
+   "label": "Average Interest Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 20:09:04.353097",
+ "modified_by": "Administrator",
+ "module": "Reporting Module",
+ "name": "Loan Portfolio Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

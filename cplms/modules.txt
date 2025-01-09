@@ -1,1 +1,5 @@
 Cplms
+Loan Origination Module
+Loan Servicing Module
+Debt Collection Module
+Reporting Module

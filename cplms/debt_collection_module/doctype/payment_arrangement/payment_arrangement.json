@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:37:05.270091",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_id",
+  "borrow_name",
+  "agree_amount",
+  "start_date",
+  "end_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "loan_id",
+   "fieldtype": "Link",
+   "label": "Loan ID",
+   "options": "Loan Account"
+  },
+  {
+   "fieldname": "borrow_name",
+   "fieldtype": "Link",
+   "label": "Borrower Name",
+   "options": "Borrower Profile"
+  },
+  {
+   "fieldname": "agree_amount",
+   "fieldtype": "Currency",
+   "label": "Agreed Installment Amount"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "status",
+   "fieldtype": "Check",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 20:07:22.888814",
+ "modified_by": "Administrator",
+ "module": "Debt Collection Module",
+ "name": "Payment Arrangement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:59:43.590070",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "install_num",
+  "due_date",
+  "princ_amount",
+  "in_amount",
+  "total_pay",
+  "pay_stat"
+ ],
+ "fields": [
+  {
+   "fieldname": "install_num",
+   "fieldtype": "Int",
+   "label": "Installment Number"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "princ_amount",
+   "fieldtype": "Currency",
+   "label": "Principal Amount"
+  },
+  {
+   "fieldname": "in_amount",
+   "fieldtype": "Currency",
+   "label": "Interest Amount"
+  },
+  {
+   "fieldname": "total_pay",
+   "fieldtype": "Currency",
+   "label": "Total Payment"
+  },
+  {
+   "fieldname": "pay_stat",
+   "fieldtype": "Select",
+   "label": "Payment Status",
+   "options": "Pending\nPaid\nOverdue"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-09 20:14:49.762193",
+ "modified_by": "Administrator",
+ "module": "Loan Servicing Module",
+ "name": "Repayment Schedule",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

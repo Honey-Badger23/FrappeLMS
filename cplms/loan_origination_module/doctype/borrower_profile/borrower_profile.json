@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:27:11.775479",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "_name",
+  "is_num",
+  "dob",
+  "phone_num",
+  "employ_name",
+  "ann_income",
+  "exist_debt",
+  "debt_inc_rate",
+  "loan_take"
+ ],
+ "fields": [
+  {
+   "fieldname": "_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "is_num",
+   "fieldtype": "Data",
+   "label": "ID Number"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "phone_num",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "employ_name",
+   "fieldtype": "Data",
+   "label": "Employer Name"
+  },
+  {
+   "fieldname": "ann_income",
+   "fieldtype": "Currency",
+   "label": "Annual Income"
+  },
+  {
+   "fieldname": "exist_debt",
+   "fieldtype": "Currency",
+   "label": "Existing Debts"
+  },
+  {
+   "fieldname": "debt_inc_rate",
+   "fieldtype": "Float",
+   "label": "Debt-to-Income Ratio (%)"
+  },
+  {
+   "fieldname": "loan_take",
+   "fieldtype": "Table",
+   "label": "Loans Taken",
+   "options": "Loans"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 19:52:42.612174",
+ "modified_by": "Administrator",
+ "module": "Loan Origination Module",
+ "name": "Borrower Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

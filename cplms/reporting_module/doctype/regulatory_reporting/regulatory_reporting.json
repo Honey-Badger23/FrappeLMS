@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:38:23.806719",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_id",
+  "borrower_name",
+  "loan_status",
+  "outstand_amount",
+  "over_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "loan_id",
+   "fieldtype": "Link",
+   "label": "Loan ID",
+   "options": "Loan Account"
+  },
+  {
+   "fieldname": "borrower_name",
+   "fieldtype": "Link",
+   "label": "Borrower Name",
+   "options": "Borrower Profile"
+  },
+  {
+   "fieldname": "loan_status",
+   "fieldtype": "Select",
+   "label": "Loan Status",
+   "options": "Active\nClosed\nOverdue"
+  },
+  {
+   "fieldname": "outstand_amount",
+   "fieldtype": "Currency",
+   "label": "Outstanding Amount"
+  },
+  {
+   "fieldname": "over_days",
+   "fieldtype": "Int",
+   "label": "Overdue Days"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 20:12:05.953545",
+ "modified_by": "Administrator",
+ "module": "Reporting Module",
+ "name": "Regulatory Reporting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

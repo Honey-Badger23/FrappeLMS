@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:35:43.520099",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_id",
+  "borrower",
+  "princ_amount",
+  "in_rate",
+  "loan_ten",
+  "disburs_date",
+  "loan_stat",
+  "repay_schedule",
+  "sign_agree"
+ ],
+ "fields": [
+  {
+   "fieldname": "loan_id",
+   "fieldtype": "Autocomplete",
+   "label": "Loan ID"
+  },
+  {
+   "fieldname": "borrower",
+   "fieldtype": "Link",
+   "label": "Borrower",
+   "options": "Loan Application"
+  },
+  {
+   "fieldname": "princ_amount",
+   "fieldtype": "Currency",
+   "label": "Principal Amount"
+  },
+  {
+   "fieldname": "in_rate",
+   "fieldtype": "Float",
+   "label": "Interest Rate"
+  },
+  {
+   "fieldname": "loan_ten",
+   "fieldtype": "Int",
+   "label": "Loan Tenure (Months)"
+  },
+  {
+   "fieldname": "disburs_date",
+   "fieldtype": "Date",
+   "label": "Disbursal Date"
+  },
+  {
+   "fieldname": "loan_stat",
+   "fieldtype": "Select",
+   "label": "Loan Status",
+   "options": "Active\nClosed\nOverdue"
+  },
+  {
+   "fieldname": "repay_schedule",
+   "fieldtype": "Table",
+   "label": "Repayment Schedule",
+   "options": "Repayment Schedule"
+  },
+  {
+   "fieldname": "sign_agree",
+   "fieldtype": "Attach",
+   "label": "Signed Agreement"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 20:00:22.985918",
+ "modified_by": "Administrator",
+ "module": "Loan Servicing Module",
+ "name": "Loan Account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

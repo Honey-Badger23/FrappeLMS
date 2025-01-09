@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 19:36:06.514497",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_id",
+  "purpose",
+  "amount_held",
+  "disburs_date",
+  "transactions"
+ ],
+ "fields": [
+  {
+   "fieldname": "loan_id",
+   "fieldtype": "Link",
+   "label": "Loan ID ",
+   "options": "Loan Account"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "amount_held",
+   "fieldtype": "Currency",
+   "label": "Amount Held"
+  },
+  {
+   "fieldname": "disburs_date",
+   "fieldtype": "Date",
+   "label": "Disbursal Date"
+  },
+  {
+   "fieldname": "transactions",
+   "fieldtype": "Table",
+   "label": "Transactions",
+   "options": "Transactions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 20:02:23.494942",
+ "modified_by": "Administrator",
+ "module": "Loan Servicing Module",
+ "name": "Escrow Account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

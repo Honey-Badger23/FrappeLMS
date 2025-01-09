@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 20:00:51.682983",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trans_date",
+  "amount",
+  "purpose",
+  "balance"
+ ],
+ "fields": [
+  {
+   "fieldname": "trans_date",
+   "fieldtype": "Data",
+   "label": "Transaction Date"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Date",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "balance",
+   "fieldtype": "Currency",
+   "label": "Balance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-09 20:15:46.038743",
+ "modified_by": "Administrator",
+ "module": "Loan Servicing Module",
+ "name": "Transactions",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
